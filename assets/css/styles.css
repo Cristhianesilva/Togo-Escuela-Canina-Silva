@@ -14,6 +14,11 @@ header{
     display: flex;
     text-decoration: none;
 }
+.box{
+    width: 778px;
+    height: 168px;
+    background-image: linear-gradient(#d2d2d2, #0a2545);
+}
 ul{
     display: flex;
     justify-content: space-evenly;
