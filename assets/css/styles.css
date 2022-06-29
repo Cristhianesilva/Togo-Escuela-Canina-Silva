@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #d2d2d2;
+    font-family: sans-serif;
+    text-decoration-color: #0a2545;
+}
+header{
+    display: flex;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+body{
+    font-size: 1.3em;
+    text-decoration-color: #0a2545;
+}
+.list__item{
+    list-style-type: none;
+    text-decoration: none;
+}
+section{
+    max-width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 10px;
+}
+.servicios{
+    max-width: 100%;
+    display: grid;
+grid-template-columns: 100px 100px;
+grid-template-rows: 100px 100px;
+grid-gap: 10px;
+}
+.articulo_imagen{
+    text-decoration-color: #0a2545;
+}
