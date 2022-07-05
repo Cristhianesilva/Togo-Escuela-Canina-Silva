@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="shortcut icon" href="./assets/images/favicon.ico">
 </head>
@@ -32,29 +35,45 @@
         </nav>
     </header>
     <main>
-        <section><!--Grid-->
-            <article class="servicios">
-                <img src="./assets/images/ATENCION PERSONALIZADA 1.png"
-                    alt="Atencion Personalizada">
-                <p class="articulo-imagen">Atencion Personalizada
-                </p>
-            </article>
-            <article>
-                <img src="./assets/images/TALLERES Y SEMINARIOS 1.png"
-                    alt="Talleres y Seminarios">
-                    <p class="articulo-imagen">Talleres y Seminarios
-                    </p>
-            </article>
-            <article>
-                <img src="./assets/images/CLASES A DOMICILIO 2 .png" alt="Clases a Domicilio">
-                <p class="articulo-imagen">Clases a Domicilio
-                </p>
-            </article>
-            <article>
-                <img src="./assets/images/CLASES ONLINE 2.png" alt="Clases on-line">
-                <p class="articulo-imagen">Clases on-line
-                </p>
-            </article>
+        <section>
+            <!--Bootstrap-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="./assets/images/ATENCION PERSONALIZADA 1.png"
+                            data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true"
+                            style="width: 900px; height: 400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="./assets/images/TALLERES Y SEMINARIOS 1.png"
+                            data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true"
+                            style="width: 900px; height: 400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="./assets/images/CLASES ONLINE 1.png"
+                            data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true"
+                            style="width: 900px; height: 400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="./assets/images/CLASES A DOMICILIO 2 .png"
+                            data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true"
+                            style="width: 900px; height: 400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
         </section>
         <form action="">
             <p>Contactanos</p>
